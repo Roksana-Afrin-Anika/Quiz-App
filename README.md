@@ -20,4 +20,4 @@ A React-based interactive quiz application that allows users to test their knowl
 
 1. Clone the repository:
    ```bash
-    git clone https://github.com/Roksana-Afrin-Anika/Quiz-App-React.git
+    git clone https://github.com/Roksana-Afrin-Anika/Quiz-App.git
