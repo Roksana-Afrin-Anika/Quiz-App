@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Quiz-App%3E/static/css/main.bda29117.css",
-    "main.js": "/Quiz-App%3E/static/js/main.20fc8925.js",
-    "static/js/453.ed3810f9.chunk.js": "/Quiz-App%3E/static/js/453.ed3810f9.chunk.js",
-    "static/media/bg.jpg": "/Quiz-App%3E/static/media/bg.d7eef78c7df1d04469b5.jpg",
-    "index.html": "/Quiz-App%3E/index.html",
-    "main.bda29117.css.map": "/Quiz-App%3E/static/css/main.bda29117.css.map",
-    "main.20fc8925.js.map": "/Quiz-App%3E/static/js/main.20fc8925.js.map",
-    "453.ed3810f9.chunk.js.map": "/Quiz-App%3E/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/Quiz-App/static/css/main.25580ffb.css",
+    "main.js": "/Quiz-App/static/js/main.b6635205.js",
+    "static/js/453.ed3810f9.chunk.js": "/Quiz-App/static/js/453.ed3810f9.chunk.js",
+    "static/media/bg.jpg": "/Quiz-App/static/media/bg.d7eef78c7df1d04469b5.jpg",
+    "index.html": "/Quiz-App/index.html",
+    "main.25580ffb.css.map": "/Quiz-App/static/css/main.25580ffb.css.map",
+    "main.b6635205.js.map": "/Quiz-App/static/js/main.b6635205.js.map",
+    "453.ed3810f9.chunk.js.map": "/Quiz-App/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bda29117.css",
-    "static/js/main.20fc8925.js"
+    "static/css/main.25580ffb.css",
+    "static/js/main.b6635205.js"
   ]
 }
