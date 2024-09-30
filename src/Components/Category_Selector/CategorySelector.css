@@ -1,0 +1,32 @@
+/* Center the container div in the middle of the page */
+.category-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers vertically */
+  align-items: center; /* Centers horizontally */
+  height: 8s0vh; /* Full viewport height */
+}
+
+/* Style the select dropdown */
+.category-select {
+  font-size: 1rem; /* Larger font for select box */
+  padding: 8px 12px; /* Padding to make it bigger */
+  border-radius: 8px; /* Rounded corners */
+  border: 2px solid #ccc; /* Border for the dropdown */
+  width: 60%; /* Dropdown width */
+  max-width: 500px; /* Limit the max width */
+  background-color: #f9f9f9; /* Light background */
+  outline: none; /* Remove default outline */
+  transition: border-color 0.3s ease; /* Smooth transition on focus */
+}
+
+/* Change border color when focused */
+.category-select:focus {
+  border-color: #007bff;
+}
+
+/* Style the options inside the dropdown */
+.category-option {
+  font-size: 1.2rem;
+  padding: 5px 10px;
+}

@@ -1,0 +1,105 @@
+/* Quiz.css */
+
+/* Global Styles */
+body {
+  font-family: "Arial", sans-serif; /* Use a modern font */
+  background-color: #f0f4f8; /* Light background color */
+  color: #333; /* Dark text color */
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the quiz */
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: white; /* White background for the container */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  border-radius: 10px; /* Rounded corners */
+  text-align: center;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 2.5rem; /* Large font size for main title */
+  margin-bottom: 10px;
+  color: #2c3e50; /* Darker shade for title */
+}
+
+h2 {
+  font-size: 1.8rem; /* Slightly smaller than h1 */
+  margin: 15px 0;
+  color: #2980b9; /* Blue color for questions */
+}
+
+h3 {
+  font-size: 1.5rem; /* Medium size for category */
+  color: #8e44ad; /* Purple color for category */
+  margin-bottom: 20px;
+}
+
+/* Unordered list styles */
+ul {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+/* List item styles */
+li {
+  padding: 15px; /* Padding for clickable area */
+  margin: 10px 0; /* Spacing between options */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+  cursor: pointer; /* Pointer cursor for clickable items */
+}
+
+/* Correct and Incorrect answer styles */
+li.correct {
+  background-color: #27ae60; /* Green for correct answers */
+  color: white;
+  transform: scale(1.05); /* Slightly scale up */
+}
+
+li.incorrect {
+  background-color: #c0392b; /* Red for incorrect answers */
+  color: white;
+  transform: scale(1.05); /* Slightly scale up */
+}
+
+/* Default hover effect */
+li:hover {
+  background-color: #3498db; /* Blue background on hover */
+  color: white; /* Change text color on hover */
+}
+
+/* Disable pointer events and change cursor for selected answer */
+li[style*="pointer-events: none"] {
+  cursor: not-allowed; /* Not allowed cursor */
+  opacity: 0.6; /* Slightly transparent */
+}
+
+/* Button styles */
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #2980b9; /* Blue background */
+  color: white; /* White text */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+button:hover {
+  background-color: #196657; /* Lighter blue on hover */
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+/* Style for the index displaying current question */
+.index {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #555; /* Subtle color for the index */
+}
